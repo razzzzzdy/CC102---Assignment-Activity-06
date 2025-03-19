@@ -1,5 +1,5 @@
 #include <iostream>
-#inlude <iomanip>
+#include <iomanip>
 #include <string>
 
 using namespace std;
