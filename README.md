@@ -1,4 +1,5 @@
 #include <iostream>
+#inlude <iomanip>
 #include <string>
 
 using namespace std;
@@ -117,7 +118,7 @@ void viewStudents() {
     cout << "ID\tName\t\tCourse\tGPA\n";
     for (int i = 0; i < studentCount; i++) {
         cout << students[i].id << "\t" << students[i].lastName << ", " << students[i].firstName
-             << "\t" << students[i].course << "\t" << students[i].gpa << endl;
+             << "\t" << students[i].course << "\t" << fixed << setprecision(2) << students[i].gpa << endl;
     }
 }
 
