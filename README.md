@@ -9,7 +9,7 @@ int id;
 string firstName;
 string lastName;
 string course;
-  float gpa;
+float gpa;
 };
 
 const int MAX_STUDENTS = 100;
